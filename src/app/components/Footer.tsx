@@ -52,7 +52,7 @@ export function Footer() {
             className="text-3xl md:text-4xl text-[#5C4033]"
             style={{ fontFamily: "'Edwardian Script ITC3', cursive" }}
           >
-            Nguyễn Thị Thùy Trang 
+            Tuấn Kiệt & Ngọc Phỉ 
           </div>
 
           <div
@@ -71,7 +71,7 @@ export function Footer() {
           transition={{ delay: 0.6 }}
           className="mb-12"
         >
-          <p className="text-lg text-gray-600">26.04.2026</p>
+          <p className="text-lg text-gray-600">25.04.2026</p>
         </motion.div>
 
         {/* Decorative divider */}

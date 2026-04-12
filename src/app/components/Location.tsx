@@ -1,10 +1,10 @@
 import { motion } from 'motion/react';
 import { MapPin, Navigation } from 'lucide-react';
-import page5 from '../../assets/page5.png';
+import page5 from '../../assets/page5.jpg';
 
 export function Location() {
   const handleDirections = () => {
-    window.open('https://share.google/9YGJJwAoTcMrYFxkB', '_blank');
+    window.open('https://maps.app.goo.gl/6Noq2YzqYNvbNBaH9', '_blank');
   };
 
   return (
@@ -72,11 +72,11 @@ export function Location() {
               className="text-3xl md:text-4xl text-[#5C4033] mb-4 text-center"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
-              Nhà hàng Thắng Lợi 1
+              Nhà hàng Đông Xuyên
             </h3>
 
             <p className="text-center text-gray-700 mb-8 leading-relaxed">
-              01 Đ. Lê Hồng Phong, P. Mỹ Bình, Long Xuyên, An Giang
+              9A Lương Văn Cù, Mỹ Long, Long Xuyên, An Giang
             </p>
 
             <div className="flex justify-center">

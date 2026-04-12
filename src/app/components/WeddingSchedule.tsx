@@ -45,7 +45,7 @@ export function WeddingSchedule() {
             className="text-4xl md:text-5xl text-[#5C4033] mb-4"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            Lễ Tân Hôn
+            Lễ Vu Quy
           </motion.h2>
 
           <motion.p
@@ -92,10 +92,10 @@ export function WeddingSchedule() {
                     Thời gian tổ chức
                   </p>
                   <p className="text-lg md:text-xl text-gray-800 font-medium">
-                    Chủ Nhật, 26 tháng 04 năm 2026
+                    Thứ Bảy, 25 tháng 04 năm 2026
                   </p>
                   <p className="text-sm text-gray-500 mt-1">
-                    Ngày 10 tháng 03 năm Bính Ngọ
+                    Ngày 09 tháng 03 năm Bính Ngọ
                   </p>
                 </div>
               </motion.div>

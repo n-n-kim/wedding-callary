@@ -71,7 +71,7 @@ export function Hero({ onOpen }: HeroProps) {
             className="text-2xl md:text-3xl text-[#5C4033]"
             style={{ fontFamily: "'Playfair Display Italic', serif" }}
           >
-            26.4.2026
+            25.4.2026
           </p>
         </motion.div>
 

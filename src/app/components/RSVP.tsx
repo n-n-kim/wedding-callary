@@ -10,9 +10,11 @@ export function RSVP() {
     message: '',
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setIsSubmitting(true);
 
     try {
       const formBody = new URLSearchParams({
@@ -22,35 +24,31 @@ export function RSVP() {
         message: formData.message,
       });
 
-      const response = await fetch(
-        'https://script.google.com/macros/s/AKfycbw9bD4Khilx0snCBKf8N6BPkAXJidv9cZfY7T4OjdLRbgf3XLkwKRf2yMezRyGW8CCm/exec',
+      await fetch(
+        'https://script.google.com/macros/s/AKfycbxh6R0aCWsUkU4Fa21md0zVJw4qGa4wO0Wc6LGN5JMa8zdVw9swIi3btcdFsRuTeew_/exec',
         {
           method: 'POST',
+          mode: 'no-cors',
           body: formBody,
         }
       );
 
-      const result = await response.json();
-      console.log(result);
+      setIsSubmitted(true);
 
-      if (result.success) {
-        setIsSubmitted(true);
-
-        setTimeout(() => {
-          setIsSubmitted(false);
-          setFormData({
-            name: '',
-            attendance: '',
-            guests: '1',
-            message: '',
-          });
-        }, 3000);
-      } else {
-        alert('Gửi thất bại: ' + result.message);
-      }
+      setTimeout(() => {
+        setIsSubmitted(false);
+        setFormData({
+          name: '',
+          attendance: '',
+          guests: '1',
+          message: '',
+        });
+      }, 3000);
     } catch (error) {
       console.error(error);
       alert('Có lỗi khi gửi xác nhận');
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -184,10 +182,11 @@ export function RSVP() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 type="submit"
+                disabled={isSubmitting}
                 className="w-full py-4 bg-[#5C4033] text-white rounded-full hover:bg-[#5C4033]/90 transition-colors flex items-center justify-center gap-2"
               >
                 <Send className="w-5 h-5" />
-                <span>Gửi xác nhận</span>
+                <span>{isSubmitting ? 'Đang gửi...' : 'Gửi xác nhận'}</span>
               </motion.button>
             </form>
           )}
