@@ -25,7 +25,7 @@ export function RSVP() {
       });
 
       await fetch(
-        'https://script.google.com/macros/s/AKfycbxh6R0aCWsUkU4Fa21md0zVJw4qGa4wO0Wc6LGN5JMa8zdVw9swIi3btcdFsRuTeew_/exec',
+        'https://script.google.com/macros/s/AKfycbx0kaSRdqMbAVv87sYaR8xnpWENmqUm5-BOnrAP8ZeGqi13Rg2aslgpPMNcfs0yvcUj/exechttps://script.google.com/macros/s/AKfycbx0kaSRdqMbAVv87sYaR8xnpWENmqUm5-BOnrAP8ZeGqi13Rg2aslgpPMNcfs0yvcUj/exec',
         {
           method: 'POST',
           mode: 'no-cors',
