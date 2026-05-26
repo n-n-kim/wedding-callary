@@ -37,11 +37,11 @@ export function FamilyInfo() {
             transition={{ type: 'spring' }}
             className="inline-flex items-center justify-center mb-6"
           >
-            <Users className="w-8 h-8 text-[#5C4033]" />
+            <Users className="w-8 h-8 text-[#345938]" />
           </motion.div>
 
           <h2
-            className="text-4xl md:text-5xl text-[#5C4033] mb-4"
+            className="text-4xl md:text-5xl text-[#345938] mb-4"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Gia Đình Hai Bên
@@ -72,7 +72,7 @@ export function FamilyInfo() {
                   Cha
                 </p>
                 <p
-                  className="text-[28px] md:text-[32px] leading-snug text-[#5C4033]"
+                  className="text-[28px] md:text-[32px] leading-snug text-[#345938]"
                   style={{ fontFamily: "'Playfair Display', serif" }}
                 >
                   Ông Trịnh Quang Vinh
@@ -88,7 +88,7 @@ export function FamilyInfo() {
                   Mẹ
                 </p>
                 <p
-                  className="text-[28px] md:text-[32px] leading-snug text-[#5C4033]"
+                  className="text-[28px] md:text-[32px] leading-snug text-[#345938]"
                   style={{ fontFamily: "'Playfair Display', serif" }}
                 >
                   Bà Nguyễn Thị Thùy Trang
@@ -108,7 +108,7 @@ export function FamilyInfo() {
             <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-[#F3BDCB]/20 via-[#F3BDCB] to-[#F3BDCB]/20" />
 
             <div className="text-center mb-8">
-              <div className="inline-flex items-center justify-center px-5 py-2 rounded-full bg-[#F3BDCB] text-[#5C4033] text-sm tracking-[0.2em] uppercase shadow-sm">
+              <div className="inline-flex items-center justify-center px-5 py-2 rounded-full bg-[#F3BDCB] text-[#345938] text-sm tracking-[0.2em] uppercase shadow-sm">
                 Nhà Gái
               </div>
             </div>
@@ -119,7 +119,7 @@ export function FamilyInfo() {
                   Cha
                 </p>
                 <p
-                  className="text-[28px] md:text-[32px] leading-snug text-[#5C4033]"
+                  className="text-[28px] md:text-[32px] leading-snug text-[#345938]"
                   style={{ fontFamily: "'Playfair Display', serif" }}
                 >
                   Ông Trần Tuấn Kiệt
@@ -135,7 +135,7 @@ export function FamilyInfo() {
                   Mẹ
                 </p>
                 <p
-                  className="text-[28px] md:text-[32px] leading-snug text-[#5C4033]"
+                  className="text-[28px] md:text-[32px] leading-snug text-[#345938]"
                   style={{ fontFamily: "'Playfair Display', serif" }}
                 >
                   Bà Ngô Ngọc Phỉ

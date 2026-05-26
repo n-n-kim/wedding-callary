@@ -59,7 +59,7 @@ export function FloatingButtons() {
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.92 }}
           onClick={toggleMusic}
-          className="relative z-10 w-14 h-14 rounded-full bg-[#5A3E2B] text-white shadow-lg hover:shadow-xl transition-shadow flex items-center justify-center"
+          className="relative z-10 w-14 h-14 rounded-full bg-[#345938] text-white shadow-lg hover:shadow-xl transition-shadow flex items-center justify-center"
           title={isPlaying ? 'Pause music' : 'Play music'}
         >
           {isPlaying ? (
@@ -71,7 +71,7 @@ export function FloatingButtons() {
 
         {isPlaying && (
           <motion.div
-            className="absolute inset-0 rounded-full bg-[#5A3E2B] pointer-events-none"
+            className="absolute inset-0 rounded-full bg-[#345938] pointer-events-none"
             animate={{
               scale: [1, 1.45, 1],
               opacity: [0.35, 0, 0.35],
@@ -93,7 +93,7 @@ export function FloatingButtons() {
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.92 }}
           onClick={scrollToTop}
-          className="w-14 h-14 bg-[#5A3E2B] text-[#FFFFFF] rounded-full shadow-lg hover:shadow-xl transition-shadow flex items-center justify-center"
+          className="w-14 h-14 bg-[#345938] text-[#FFFFFF] rounded-full shadow-lg hover:shadow-xl transition-shadow flex items-center justify-center"
           title="Scroll to top"
         >
           <ArrowUp className="w-6 h-6" />

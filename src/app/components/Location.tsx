@@ -27,17 +27,17 @@ export function Location() {
             transition={{ type: 'spring' }}
             className="inline-flex items-center justify-center mb-6"
           >
-            <MapPin className="w-8 h-8 text-[#5C4033]" />
+            <MapPin className="w-8 h-8 text-[#345938]" />
           </motion.div>
 
           <h2
-            className="text-4xl md:text-5xl text-[#5C4033] mb-4"
+            className="text-4xl md:text-5xl text-[#345938] mb-4"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Địa Điểm Tổ Chức
           </h2>
 
-          <p className="text-gray-600">Lễ đính hôn</p>
+          <p className="text-gray-600">Lễ thành hôn</p>
         </div>
 
         <div className="bg-white/70 rounded-3xl overflow-hidden border border-[#CFD6AD]/30 shadow-xl backdrop-blur-sm">
@@ -55,7 +55,7 @@ export function Location() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-white/70 via-white/10 to-transparent" />
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-              <div className="w-12 h-12 bg-[#5C4033] rounded-full flex items-center justify-center shadow-lg">
+              <div className="w-12 h-12 bg-[#345938] rounded-full flex items-center justify-center shadow-lg">
                 <MapPin className="w-6 h-6 text-white" fill="white" />
               </div>
             </div>
@@ -69,7 +69,7 @@ export function Location() {
             className="p-8 md:p-10"
           >
             <h3
-              className="text-3xl md:text-4xl text-[#5C4033] mb-4 text-center"
+              className="text-3xl md:text-4xl text-[#345938] mb-4 text-center"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
               Sảnh Magnolia - Lầu 5
@@ -84,7 +84,7 @@ export function Location() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleDirections}
-                className="inline-flex items-center gap-2 px-8 py-4 bg-[#5C4033] text-white rounded-full hover:bg-[#5C4033]/90 transition-colors shadow-lg"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-[#345938] text-white rounded-full hover:bg-[#345938]/90 transition-colors shadow-lg"
               >
                 <Navigation className="w-5 h-5" />
                 <span>Xem chỉ đường</span>

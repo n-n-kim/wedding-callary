@@ -15,7 +15,7 @@ export function Footer() {
         <div className="mb-8 flex items-center justify-center">
           <div className="h-px w-20 bg-[#CFD6AD]" />
           <div className="mx-4">
-            <span className="text-4xl text-[#5C4033] font-bold">♡</span>
+            <span className="text-4xl text-[#345938] font-bold">♡</span>
           </div>
           <div className="h-px w-20 bg-[#CFD6AD]" />
         </div> */}
@@ -29,7 +29,7 @@ export function Footer() {
           className="mb-8"
         >
           <p
-            className="text-2xl md:text-3xl text-[#5C4033] mb-6 leading-relaxed"
+            className="text-2xl md:text-3xl text-[#345938] mb-6 leading-relaxed"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Cảm ơn các bạn đã dành thời gian xem lời mời của chúng mình
@@ -49,14 +49,14 @@ export function Footer() {
           className="mb-8"
         >
           <div
-            className="text-3xl md:text-4xl text-[#5C4033]"
+            className="text-3xl md:text-4xl text-[#345938]"
             style={{ fontFamily: "'Edwardian Script ITC3', cursive" }}
           >
             Quốc Tân & Ngọc Trâm 
           </div>
 
           <div
-            className="text-3xl md:text-4xl text-[#5C4033]"
+            className="text-3xl md:text-4xl text-[#345938]"
             style={{ fontFamily: "'Edwardian Script ITC3', serif" }}
           >
             kính mời !
@@ -91,7 +91,7 @@ export function Footer() {
     href="https://orange-hill-077720b00.7.azurestaticapps.net/"
     target="_blank"
     rel="noopener noreferrer"
-    // className="text-[#5C4033] font-medium hover:underline"
+    // className="text-[#345938] font-medium hover:underline"
   >
     Thiệp cưới - Danh thiếp Tiến Đạt
   </a>

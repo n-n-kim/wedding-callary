@@ -33,8 +33,8 @@ export function Hero({ onOpen }: HeroProps) {
           transition={{ delay: 0.3, duration: 0.6, type: 'spring' }}
           className="mb-8 flex justify-center"
         >
-          <div className="px-5 py-2 rounded-full border border-[#5C4033]/20 bg-[#F7F6F2]/50">
-            <span className="text-xs md:text-sm uppercase tracking-[0.35em] text-[#5C4033] whitespace-nowrap">
+          <div className="px-5 py-2 rounded-full border border-[#345938]/20 bg-[#F7F6F2]/50">
+            <span className="text-xs md:text-sm uppercase tracking-[0.35em] text-[#345938] whitespace-nowrap">
               Save The Date
             </span>
           </div>
@@ -44,7 +44,7 @@ export function Hero({ onOpen }: HeroProps) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="text-sm tracking-[0.3em] uppercase text-[#5C4033] mb-6"
+          className="text-sm tracking-[0.3em] uppercase text-[#345938] mb-6"
         >
           Thư mời tiệc cưới
         </motion.p>
@@ -53,11 +53,11 @@ export function Hero({ onOpen }: HeroProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7 }}
-          className="text-5xl md:text-7xl mb-4 text-[#5C4033] relative inline-block"
+          className="text-5xl md:text-7xl mb-4 text-[#345938] relative inline-block"
           style={{ fontFamily: "'Edwardian Script ITC3', cursive" }}
         >
           Quốc Tân
-          <span className="block text-3xl md:text-4xl my-4 text-[#5C4033]">&</span>
+          <span className="block text-3xl md:text-4xl my-4 text-[#345938]">&</span>
           Ngọc Trâm
         </motion.h1>
 
@@ -68,7 +68,7 @@ export function Hero({ onOpen }: HeroProps) {
           className="mt-8 mb-12"
         >
           <p
-            className="text-2xl md:text-3xl text-[#5C4033]"
+            className="text-2xl md:text-3xl text-[#345938]"
             style={{ fontFamily: "'Playfair Display Italic', serif" }}
           >
             20.06.2026
@@ -82,7 +82,7 @@ export function Hero({ onOpen }: HeroProps) {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onClick={onOpen}
-          className="px-8 py-4 bg-[#5C4033] text-white rounded-full hover:bg-[#5C4033]/90 transition-colors"
+          className="px-8 py-4 bg-[#345938] text-white rounded-full hover:bg-[#345938]/90 transition-colors"
           style={{ fontFamily: "'Inter', sans-serif" }}
         >
           Mở thiệp cưới

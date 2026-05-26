@@ -43,7 +43,7 @@ export function CoupleIntro() {
               className="text-5xl md:text-7xl"
               style={{ fontFamily: "'Edwardian Script ITC3', cursive" }}
             >
-              <span className="text-[#5C4033]">Trịnh Quốc Tân</span>
+              <span className="text-[#345938]">Trịnh Quốc Tân</span>
             </div>
           </motion.div>
 
@@ -57,7 +57,7 @@ export function CoupleIntro() {
             <div className="h-px w-20 bg-[#CFD6AD]" />
             <div className="mx-6">
               <span
-                className="text-6xl text-[#5C4033] leading-none"
+                className="text-6xl text-[#345938] leading-none"
                 style={{ fontFamily: "'Parisienne', 'Great Vibes', cursive" }}
               >
                 &
@@ -74,7 +74,7 @@ export function CoupleIntro() {
             className="text-5xl md:text-7xl"
             style={{ fontFamily: "'Edwardian Script ITC3', cursive" }}
           >
-            <span className="text-[#5C4033]">Trần Ngọc Trâm</span>
+            <span className="text-[#345938]">Trần Ngọc Trâm</span>
           </motion.div>
         </div>
 

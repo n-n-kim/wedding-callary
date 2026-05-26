@@ -157,7 +157,7 @@ export function RSVP() {
       >
         <div className="text-center mb-16">
           <h2
-            className="text-4xl md:text-5xl text-[#5C4033] mb-4"
+            className="text-4xl md:text-5xl text-[#345938] mb-4"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Xác Nhận Tham Dự
@@ -184,7 +184,7 @@ export function RSVP() {
             >
               <CheckCircle2 className="w-16 h-16 text-[#CFD6AD] mx-auto mb-4" />
               <h3
-                className="text-2xl text-[#5C4033] mb-2"
+                className="text-2xl text-[#345938] mb-2"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 Cảm ơn bạn!
@@ -204,7 +204,7 @@ export function RSVP() {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-xl border border-[#CFD6AD]/30 bg-white focus:outline-none focus:border-[#5C4033] transition-colors"
+                    className="w-full px-4 py-3 rounded-xl border border-[#CFD6AD]/30 bg-white focus:outline-none focus:border-[#345938] transition-colors"
                     placeholder="Nhập họ và tên của bạn"
                   />
                 </div>
@@ -219,7 +219,7 @@ export function RSVP() {
                     required
                     value={formData.attendance}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-xl border border-[#CFD6AD]/30 bg-white focus:outline-none focus:border-[#5C4033] transition-colors"
+                    className="w-full px-4 py-3 rounded-xl border border-[#CFD6AD]/30 bg-white focus:outline-none focus:border-[#345938] transition-colors"
                   >
                     <option value="">Chọn trạng thái</option>
                     <option value={ATTENDING_VALUE}>{ATTENDING_VALUE}</option>
@@ -240,7 +240,7 @@ export function RSVP() {
                       max="50"
                       value={formData.guests}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-xl border border-[#CFD6AD]/30 bg-white focus:outline-none focus:border-[#5C4033] transition-colors"
+                      className="w-full px-4 py-3 rounded-xl border border-[#CFD6AD]/30 bg-white focus:outline-none focus:border-[#345938] transition-colors"
                       placeholder="Nhập số người"
                     />
                   </motion.div>
@@ -256,7 +256,7 @@ export function RSVP() {
                     rows={4}
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-xl border border-[#CFD6AD]/30 bg-white focus:outline-none focus:border-[#5C4033] transition-colors resize-none"
+                    className="w-full px-4 py-3 rounded-xl border border-[#CFD6AD]/30 bg-white focus:outline-none focus:border-[#345938] transition-colors resize-none"
                     placeholder="Gửi lời chúc đến cô dâu chú rể..."
                   />
                 </div>
@@ -266,7 +266,7 @@ export function RSVP() {
                     <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
                       <div>
                         <p className="text-sm text-gray-500">Tài khoản xác nhận</p>
-                        <p className="text-[#5C4033]">{user.displayName || user.email}</p>
+                        <p className="text-[#345938]">{user.displayName || user.email}</p>
                       </div>
                       <p className="text-sm text-gray-500">{user.email}</p>
                     </div>
@@ -279,7 +279,7 @@ export function RSVP() {
                         type="button"
                         disabled={isLoading || isSigningIn}
                         onClick={() => void handleGoogleSignIn()}
-                        className="inline-flex items-center justify-center gap-2 rounded-full border border-[#5C4033]/20 px-5 py-2.5 text-sm text-[#5C4033] transition hover:bg-[#5C4033] hover:text-white disabled:opacity-60"
+                        className="inline-flex items-center justify-center gap-2 rounded-full border border-[#345938]/20 px-5 py-2.5 text-sm text-[#345938] transition hover:bg-[#345938] hover:text-white disabled:opacity-60"
                       >
                         <LogIn className="h-4 w-4" />
                         {isLoading ? 'Đang kiểm tra...' : isSigningIn ? 'Đang mở đăng nhập...' : 'Đăng nhập với Google'}
@@ -295,7 +295,7 @@ export function RSVP() {
                   whileTap={{ scale: 0.98 }}
                   type="submit"
                   disabled={isSubmitting || !user}
-                  className="w-full py-4 bg-[#5C4033] text-white rounded-full hover:bg-[#5C4033]/90 transition-colors flex items-center justify-center gap-2 disabled:opacity-60"
+                  className="w-full py-4 bg-[#345938] text-white rounded-full hover:bg-[#345938]/90 transition-colors flex items-center justify-center gap-2 disabled:opacity-60"
                 >
                   <Send className="w-5 h-5" />
                   <span>{isSubmitting ? 'Đang gửi...' : 'Gửi xác nhận'}</span>

@@ -74,7 +74,7 @@ export function AdminResponses() {
           <div>
             <p className="mb-3 text-sm uppercase tracking-[0.35em] text-[#8c6b5a]">Admin</p>
             <h2
-              className="mb-3 text-4xl text-[#5C4033] md:text-5xl"
+              className="mb-3 text-4xl text-[#345938] md:text-5xl"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
               Danh sách phản hồi RSVP
@@ -91,7 +91,7 @@ export function AdminResponses() {
             <button
               type="button"
               onClick={() => void signOutUser()}
-              className="inline-flex items-center gap-2 rounded-full border border-[#5C4033]/20 px-5 py-3 text-sm text-[#5C4033] transition hover:bg-[#5C4033] hover:text-white"
+              className="inline-flex items-center gap-2 rounded-full border border-[#345938]/20 px-5 py-3 text-sm text-[#345938] transition hover:bg-[#345938] hover:text-white"
             >
               <LogOut className="h-4 w-4" />
               Đăng xuất
@@ -102,19 +102,19 @@ export function AdminResponses() {
         <div className="mb-8 grid gap-4 md:grid-cols-4">
           <div className="rounded-3xl border border-[#CFD6AD]/40 bg-white p-5">
             <p className="mb-2 text-sm text-gray-500">Tổng phản hồi</p>
-            <p className="text-3xl text-[#5C4033]">{stats.totalResponses}</p>
+            <p className="text-3xl text-[#345938]">{stats.totalResponses}</p>
           </div>
           <div className="rounded-3xl border border-[#CFD6AD]/40 bg-white p-5">
             <p className="mb-2 text-sm text-gray-500">Sẽ tham dự</p>
-            <p className="text-3xl text-[#5C4033]">{stats.attending}</p>
+            <p className="text-3xl text-[#345938]">{stats.attending}</p>
           </div>
           <div className="rounded-3xl border border-[#CFD6AD]/40 bg-white p-5">
             <p className="mb-2 text-sm text-gray-500">Không tham dự</p>
-            <p className="text-3xl text-[#5C4033]">{stats.declined}</p>
+            <p className="text-3xl text-[#345938]">{stats.declined}</p>
           </div>
           <div className="rounded-3xl border border-[#CFD6AD]/40 bg-white p-5">
             <p className="mb-2 text-sm text-gray-500">Số khách dự kiến</p>
-            <p className="text-3xl text-[#5C4033]">{stats.totalGuests}</p>
+            <p className="text-3xl text-[#345938]">{stats.totalGuests}</p>
           </div>
         </div>
 
@@ -142,12 +142,12 @@ export function AdminResponses() {
                           className="h-11 w-11 rounded-full object-cover"
                         />
                       ) : (
-                        <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#EEDFCA] text-[#5C4033]">
+                        <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#EEDFCA] text-[#345938]">
                           {item.name.charAt(0).toUpperCase()}
                         </div>
                       )}
                       <div className="min-w-0">
-                        <h3 className="truncate text-lg text-[#5C4033]">{item.name}</h3>
+                        <h3 className="truncate text-lg text-[#345938]">{item.name}</h3>
                         <p className="text-sm text-gray-500">{formatDate(item.updatedAt || item.createdAt)}</p>
                       </div>
                     </div>

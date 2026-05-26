@@ -49,7 +49,7 @@ export function Gallery() {
       >
         <div className="text-center mb-14">
           <h2
-            className="text-4xl md:text-5xl text-[#5C4033] mb-4"
+            className="text-4xl md:text-5xl text-[#345938] mb-4"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Album Ảnh Cưới

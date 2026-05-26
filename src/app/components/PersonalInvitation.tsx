@@ -7,7 +7,7 @@ interface PersonalInvitationProps {
 
 function SparkleDivider() {
   return (
-    <div className="flex items-center justify-center text-[#5C4033] text-sm md:text-base tracking-wider select-none">
+    <div className="flex items-center justify-center text-[#345938] text-sm md:text-base tracking-wider select-none">
       <motion.span
         animate={{
           opacity: [0.5, 1, 0.5],
@@ -88,12 +88,12 @@ export function PersonalInvitation({
           {/* Decorative line */}
           {/* <div className="mb-10 flex items-center justify-center">
             <SparkleDivider />
-            <div className="mx-4 w-2.5 h-2.5 rounded-full bg-[#5C4033]" />
+            <div className="mx-4 w-2.5 h-2.5 rounded-full bg-[#345938]" />
             <SparkleDivider />
           </div> */}
 
           <p
-            className="text-4xl md:text-6xl text-[#5C4033] mb-10"
+            className="text-4xl md:text-6xl text-[#345938] mb-10"
             style={{ fontFamily: "'Great Vibes', cursive" }}
           >
             Trân Trọng Kính Mời
@@ -105,10 +105,10 @@ export function PersonalInvitation({
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3, duration: 0.6 }}
-              className="mb-10 max-w-2xl mx-auto p-6 md:p-8 bg-gradient-to-br from-[#EEDFCA]/30 to-[#F3BDCB]/20 rounded-2xl border border-[#5C4033]/30"
+              className="mb-10 max-w-2xl mx-auto p-6 md:p-8 bg-gradient-to-br from-[#EEDFCA]/30 to-[#F3BDCB]/20 rounded-2xl border border-[#345938]/30"
             >
               <p
-                className="text-4xl md:text-5xl text-[#5C4033] mb-2"
+                className="text-4xl md:text-5xl text-[#345938] mb-2"
                 style={{
                   fontFamily: "'Playfair Display', serif",
                 }}
@@ -125,14 +125,14 @@ export function PersonalInvitation({
             <p className="mb-1">
               Với niềm vui và hạnh phúc vô bờ, chúng mình trân trọng
               kính mời {guestName || "các bạn"} đến dự buổi lễ
-              đính hôn của con chúng mình.
+              thành hôn của con chúng mình.
             </p>
           </div>
 
           {/* Decorative line */}
           {/* <div className="mt-14 flex items-center justify-center">
             <SparkleDivider />
-            <div className="mx-4 w-12 h-1 bg-[#5C4033]" />
+            <div className="mx-4 w-12 h-1 bg-[#345938]" />
             <SparkleDivider />
           </div> */}
         </div>

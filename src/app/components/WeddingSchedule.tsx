@@ -45,7 +45,7 @@ export function WeddingSchedule() {
             className="text-4xl md:text-5xl text-[#5C4033] mb-4"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            Lễ Đính Hôn
+            Lễ Thành Hôn
           </motion.h2>
 
           <motion.p
@@ -151,7 +151,7 @@ export function WeddingSchedule() {
           className="text-center mt-10"
         >
           <p className="text-sm text-gray-500 italic">
-            Sự hiện diện của quý khách là niềm vinh hạnh cho gia đình chúng tôi
+            Sự hiện diện của các bạn là niềm vinh hạnh cho gia đình chúng tôi
           </p>
         </motion.div>
       </motion.div>
