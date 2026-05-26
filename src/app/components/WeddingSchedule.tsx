@@ -75,7 +75,7 @@ export function WeddingSchedule() {
           <div className="absolute -top-16 left-1/2 h-40 w-40 -translate-x-1/2 rounded-full bg-[#EEDFCA]/30 blur-3xl" />
 
           <div className="relative p-8 md:p-12">
-            <div className="max-w-lg mx-auto">
+            <div className="max-w-2xl mx-auto">
               {/* Date */}
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
@@ -145,7 +145,7 @@ export function WeddingSchedule() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.8 }}
-                className="mt-6 rounded-[28px] border border-[#EEDFCA]/50 bg-white/75 p-5 shadow-[0_8px_30px_rgba(0,0,0,0.04)]"
+                className="mt-8"
               >
                 <p className="text-center text-sm uppercase tracking-[0.22em] text-[#9A8F6A] mb-4">
                   Dress Code
@@ -153,7 +153,7 @@ export function WeddingSchedule() {
                 <img
                   src={dressCode}
                   alt="Dress code"
-                  className="mx-auto w-full max-w-xs rounded-2xl object-contain"
+                  className="mx-auto w-full max-w-2xl object-contain"
                 />
               </motion.div>
             </div>
