@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Calendar, Clock, Heart } from 'lucide-react';
 import page3Bg from '../../assets/page4.jpg';
+import dressCode from '../../assets/dresscode.png';
 
 export function WeddingSchedule() {
   return (
@@ -137,6 +138,23 @@ export function WeddingSchedule() {
                     Làm lễ: 19h00
                   </p>
                 </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.8 }}
+                className="mt-6 rounded-[28px] border border-[#EEDFCA]/50 bg-white/75 p-5 shadow-[0_8px_30px_rgba(0,0,0,0.04)]"
+              >
+                <p className="text-center text-sm uppercase tracking-[0.22em] text-[#9A8F6A] mb-4">
+                  Dress Code
+                </p>
+                <img
+                  src={dressCode}
+                  alt="Dress code"
+                  className="mx-auto w-full max-w-xs rounded-2xl object-contain"
+                />
               </motion.div>
             </div>
           </div>
