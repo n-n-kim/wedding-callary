@@ -124,8 +124,8 @@ export function PersonalInvitation({
           >
             <p className="mb-1">
               Với niềm vui và hạnh phúc vô bờ, chúng mình trân trọng
-              kính mời {guestName || "các bạn"} đến dự buổi lễ
-              thành hôn của con chúng mình.
+              kính mời {guestName || "các vị khách quý"} đến dự buổi lễ
+              thành hôn của chúng mình.
             </p>
           </div>
 
