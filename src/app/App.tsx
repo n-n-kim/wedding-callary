@@ -7,6 +7,7 @@ import { WeddingSchedule } from './components/WeddingSchedule';
 import { Location } from './components/Location';
 import { Countdown } from './components/Countdown';
 import { RSVP } from './components/RSVP';
+import { AdminResponses } from './components/AdminResponses';
 import { Gallery } from './components/Gallery';
 // import { Gift } from './components/Gift';
 import { Footer } from './components/Footer';
@@ -42,6 +43,7 @@ export default function App() {
       <Location />
       <Countdown />
       <RSVP />
+      <AdminResponses />
       <Gallery />
       {/* <Gift /> */}
       <Footer />

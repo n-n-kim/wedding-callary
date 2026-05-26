@@ -123,9 +123,9 @@ export function PersonalInvitation({
             style={{ fontFamily: "'Times New Roman', normal" }}
           >
             <p className="mb-1">
-              Với niềm vui và hạnh phúc vô bờ, chúng tôi trân trọng
-              kính mời {guestName || "quý khách"} đến dự buổi lễ
-              tân hôn của con chúng tôi.
+              Với niềm vui và hạnh phúc vô bờ, chúng mình trân trọng
+              kính mời {guestName || "các bạn"} đến dự buổi lễ
+              đính hôn của con chúng mình.
             </p>
           </div>
 

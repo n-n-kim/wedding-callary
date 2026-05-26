@@ -1,10 +1,10 @@
 import { motion } from 'motion/react';
 import { MapPin, Navigation } from 'lucide-react';
-import page5 from '../../assets/page5.jpg';
+import page5 from '../../assets/callary.jpg';
 
 export function Location() {
   const handleDirections = () => {
-    window.open('https://maps.app.goo.gl/6Noq2YzqYNvbNBaH9', '_blank');
+    window.open('https://share.google/g22kvBRaisPBkjhbc', '_blank');
   };
 
   return (
@@ -37,7 +37,7 @@ export function Location() {
             Địa Điểm Tổ Chức
           </h2>
 
-          <p className="text-gray-600">Lễ tân hôn</p>
+          <p className="text-gray-600">Lễ đính hôn</p>
         </div>
 
         <div className="bg-white/70 rounded-3xl overflow-hidden border border-[#CFD6AD]/30 shadow-xl backdrop-blur-sm">
@@ -72,11 +72,11 @@ export function Location() {
               className="text-3xl md:text-4xl text-[#5C4033] mb-4 text-center"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
-              Nhà hàng Đông Xuyên
+              Sảnh Magnolia - Lầu 5
             </h3>
 
             <p className="text-center text-gray-700 mb-8 leading-relaxed">
-              9A Lương Văn Cù, Mỹ Long, Long Xuyên, An Giang
+              Callary Wedding & Events - Trung tâm Tiệc cưới và Hội nghị Callary  
             </p>
 
             <div className="flex justify-center">

@@ -32,11 +32,11 @@ export function Footer() {
             className="text-2xl md:text-3xl text-[#5C4033] mb-6 leading-relaxed"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            Cảm ơn quý khách đã dành thời gian xem lời mời của chúng tôi
+            Cảm ơn các bạn đã dành thời gian xem lời mời của chúng mình
           </p>
           <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
-            Sự hiện diện của quý khách trong ngày trọng đại này là niềm hạnh phúc và vinh hạnh lớn nhất đối với gia đình chúng tôi.
-            Rất mong được đón tiếp quý khách!
+            Sự hiện diện của các bạn trong ngày trọng đại này là niềm hạnh phúc và vinh hạnh lớn nhất đối với gia đình chúng mình.
+            Rất mong được đón tiếp các bạn!
           </p>
         </motion.div>
 
@@ -52,7 +52,7 @@ export function Footer() {
             className="text-3xl md:text-4xl text-[#5C4033]"
             style={{ fontFamily: "'Edwardian Script ITC3', cursive" }}
           >
-            Tuấn Kiệt & Ngọc Phỉ 
+            Quốc Tân & Ngọc Trâm 
           </div>
 
           <div
@@ -71,7 +71,7 @@ export function Footer() {
           transition={{ delay: 0.6 }}
           className="mb-12"
         >
-          <p className="text-lg text-gray-600">25.04.2026</p>
+          <p className="text-lg text-gray-600">20.06.2026</p>
         </motion.div>
 
         {/* Decorative divider */}
@@ -88,7 +88,7 @@ export function Footer() {
         >
           <p className="text-sm text-gray-500 mt-6">
   <a
-    href="https://share.google/1GbSkphjiWEXVy2o6"
+    href="https://orange-hill-077720b00.7.azurestaticapps.net/"
     target="_blank"
     rel="noopener noreferrer"
     // className="text-[#5C4033] font-medium hover:underline"

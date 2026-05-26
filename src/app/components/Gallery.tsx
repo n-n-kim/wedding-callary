@@ -5,7 +5,6 @@ import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import pic1 from '../../assets/pic1.png';
 import pic2 from '../../assets/pic2.png';
 import pic3 from '../../assets/pic3.png';
-import pic4 from '../../assets/pic4.png';
 
 export function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
@@ -14,7 +13,6 @@ export function Gallery() {
     { url: pic1, alt: 'Ảnh cưới 1' },
     { url: pic2, alt: 'Ảnh cưới 2' },
     { url: pic3, alt: 'Ảnh cưới 3' },
-    { url: pic4, alt: 'Ảnh cưới 4' },
   ];
 
   const openLightbox = (index: number) => {

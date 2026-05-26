@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Clock } from 'lucide-react';
 
 export function Countdown() {
-  const weddingDate = new Date('2026-04-25T10:00:00');
+  const weddingDate = new Date('2026-06-20T18:00:00');
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
